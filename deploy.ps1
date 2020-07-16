@@ -68,7 +68,7 @@ $ErrorActionPreference = "Stop"
 
 # sign in
 Write-Host "Logging in...";
-Login-AzAccount;
+Connect-AzAccount
 
 # select subscription
 Write-Host "Selecting subscription '$subscriptionId'";
